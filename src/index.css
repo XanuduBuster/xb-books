@@ -1,0 +1,87 @@
+:root {
+    --primary: #5865F2;
+    --secondary: #4d92ca;
+
+    --wave: #5a8db6;
+
+    --text: #fff;
+    --bg: #5f67a3;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text: #fff;
+        --bg: #303879;
+        --wave: #253b4d;
+    }
+}
+
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+.gradient{
+    text-align: center;
+    margin: -0.9vh;
+    height: 30vh;
+    background-image: linear-gradient(to bottom, var(--bg), var(--wave));
+}
+
+.bottom {
+    padding-top: 20vh;
+    height: 80vh;
+    margin: -0.9vh;
+    background-color: var(--wave);
+}
+
+.main{
+    height: 85vh;
+    padding-top: 5vh;
+    padding-left: 10vh;
+}
+
+.books {
+    text-align: center;
+}
+
+img {
+    border-radius: 22px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35vh;
+    padding: 10px;
+    border-style: solid;
+}
+
+.btn {
+    font-size: large;
+    background-color: var(--primary);
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;  
+    padding-bottom: 5px;   
+    border-radius: 22cm;
+    bottom: 20vh;
+    position: relative;
+    box-shadow: 0 0 0 10px rgba(88, 101, 242, 0.2), 0 0px 30px 0 rgba(88, 101, 242, 1);
+}
+
+.btn:hover {
+    box-shadow: 0 0 0 15px rgba(88, 101, 242, 0.1), 0 0px 35px 0 rgba(88, 101, 242, 1);
+}
+
+a, a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #ffffff83;
+}
