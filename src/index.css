@@ -26,10 +26,15 @@ body {
 
 
 .gradient{
-    text-align: center;
     margin: -0.9vh;
-    height: 30vh;
+    height: 25vh;
     background-image: linear-gradient(to bottom, var(--bg), var(--wave));
+}
+
+.text_bottom {
+    bottom: 10vh;
+    position: relative;
+    text-align: center;
 }
 
 .bottom {
@@ -42,7 +47,8 @@ body {
 .main{
     height: 85vh;
     padding-top: 5vh;
-    padding-left: 10vh;
+    padding-left: 2.5vh;
+    padding-right: 2.5vh;
 }
 
 .books {
